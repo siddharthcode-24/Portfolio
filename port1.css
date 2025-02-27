@@ -1,0 +1,178 @@
+body {
+    background-color: rgb(90, 116, 116);
+    color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(87, 65, 108);
+}
+
+nav ul {
+
+    display: flex;
+    justify-content: center;
+    font-size: large;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+.left {
+    font-size: 2rem;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    align-items: center;
+}
+
+.firstsection>div {
+    width: 30%;
+}
+
+.leftsection {
+    font-size: 3rem;
+
+
+}
+
+.rightsection img {
+    width: 120%;
+    margin: 50px 0;
+}
+
+.purple {
+    color: rgb(9, 239, 235);
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(244, 151, 11);
+    font-size: 1.04rem;
+
+}
+
+#element {
+    color: rgb(9, 239, 235)
+}
+
+.secondsection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+main hr {
+    border: 0;
+    background: azure;
+    height: 1.3px;
+    margin: 40px 60px
+}
+
+.secondsection h1 {
+    font-size: 2.3rem;
+}
+
+.grey {
+    color: rgb(105, 219, 56);
+
+}
+
+.secondsection .box {
+    background: white;
+    width: 81vw;
+    height: 3px;
+    margin: 30px 0;
+    display: flex;
+}
+
+.secondsection .vertical {
+    height: 90px;
+    width: 1px;
+    background-color: white;
+    margin: 0 100px;
+}
+
+.vertical-text {
+    position: relative;
+    top: 72px;
+    width: 150px;
+    font-size: 20px;
+}
+
+.vertical-desc {
+    position: relative;
+    top: 80px;
+    color: aquamarine;
+    width: 150px;
+    font-size: 15px;
+}
+
+.image-top {
+    width: 23px;
+    position: relative;
+    top: -21px;
+    left: -12px;
+}
+.footer{
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+
+
+}
+footer{
+    background-color: rgb(99, 101, 103);
+
+}
+.footer ul{
+    list-style: none;
+}
+.footer > div{
+    width: 220px;
+
+}
+footer .text-center{
+    text-align: center;
+    color: white;
+    padding: 12px 0;
+
+}
+.second, .third, .fourth{
+    color: gainsboro;
+}
+.leftsection .btn {
+
+    padding: 12px;
+    background-color: chocolate;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.leftsection .buttons{
+    padding: 50px 0;
+}
+ button:hover{
+    color: aqua;
+    background-color: blue;
+    font-size: 12px;
+}
